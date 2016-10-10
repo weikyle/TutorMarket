@@ -1,4 +1,4 @@
- */.navbar-default,a{-webkit-transition:all .35s;-moz-transition:all .35s}
+  */.navbar-default,a{-webkit-transition:all .35s;-moz-transition:all .35s}
 
  header,header .header-content{position:relative;width:100%;text-align:center} 
  
@@ -24,7 +24,11 @@ body{font-family:Merriweather,'Helvetica Neue',Arial,sans-serif;webkit-tap-highl
     } 
 
 h1{
-  font-weight:700;text-transform:uppercase;margin-top:0;margin-bottom:0;font-size:55px
+  font-weight:700;margin-top:0;margin-bottom:0;
+}
+
+.header-title {
+  text-transform:uppercase;font-size:55px
 }
 
 h2,h3{color:white;}
@@ -43,7 +47,9 @@ p{font-size:16px;line-height:1.5;margin-bottom:20px}
 
 .text-faded{color:rgba(255,255,255,.7)}
 
-section{padding:70px 0}
+section{padding:100px 0}
+
+footer{padding:50px 0; color:white;}
 
 market-section {
 	padding-bottom: 20px;
